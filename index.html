@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <div class="heading-container">
+        <h1>Welcome to Smart Fitness Tracker</h1>
+    </div>
+    
+    <div class="login-container">
+        <div class="round-image">
+            <img src="mid.png" alt="Round Image">
+        </div>
+        <h2 class="custom-font">Login</h2>
+        <form id="login-form" action="second.html" method="post">
+            <input type="text" name="username" placeholder="USERNAME">
+            <div class="password-container">
+                <input type="password" name="password" id="password" placeholder="PASSWORD">
+                <span class="password-toggle" onclick="togglePasswordVisibility()"></span>
+            </div>              
+            <p><a href="#">Forgot Password?</a></p>
+            <button type="submit">LOGIN</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

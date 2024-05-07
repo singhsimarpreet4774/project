@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <title>Smart Fitness Tracker</title>
+</head>
+<body>
+    <div class="header">
+        <img src="mid.png" alt="round-image" class="logo">
+        <h1> Smart Fitness Tracker</h1>
+    </div>
+    <div class="main">
+        <div class="graph">
+            <h2>Gyroscope X</h2>
+            <iframe src="https://api.thingspeak.com/channels/2529781/charts/1" width="75%" height="290"></iframe>
+        </div>
+        <div class="graph">
+            <h2>Gyroscope Y</h2>
+            <iframe src="https://api.thingspeak.com/channels/2529781/charts/2" width="75%" height="290"></iframe>
+        </div>
+        <div class="graph">
+            <h2>Gyroscope Y</h2>
+            <iframe src="https://api.thingspeak.com/channels/2529781/charts/3" width="75%" height="290"></iframe>
+        </div>
+        <div class="graph">
+            <h2>Beats per Minute</h2>
+            <iframe src="https://api.thingspeak.com/channels/2529781/charts/4" width="75%" height="290"></iframe>
+        </div>
+    </div>
+</body>
+</html>

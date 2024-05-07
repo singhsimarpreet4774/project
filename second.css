@@ -1,0 +1,72 @@
+/* Reset some default styles and apply background to the body */
+body {
+    background-image: url(123.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set your desired background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the header container */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%; /* Adjust as needed for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+
+h1 {
+    color: rgb(244, 244, 244); /* Set text color to contrast with the background */
+    margin: 0;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    font-size: xx-large;
+
+}
+
+h2 {
+    color: black;
+    margin: 0.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.graph {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    width: 590px;
+    height: 380px;
+    border-radius: 5%;
+    
+}
